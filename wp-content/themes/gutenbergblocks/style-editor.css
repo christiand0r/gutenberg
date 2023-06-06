@@ -1,0 +1,11 @@
+body {
+  font-family: inherit;
+}
+
+.wp-block {
+  max-width: 800px;
+}
+
+.wp-block[data-align="full"] {
+  max-width: none;
+}
