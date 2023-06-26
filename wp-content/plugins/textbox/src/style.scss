@@ -1,5 +1,5 @@
-.wp-block-create-block-boilerplate {
-	background-color: #21759b;
-	color: #fff;
-	padding: 2px;
+.wp-block-gutenberg-textbox {
+	&.has-shadow {
+		box-shadow: 0 0 20px rgba(0, 0, 0, calc(var(--shadow-opacity) / 10));
+	}
 }

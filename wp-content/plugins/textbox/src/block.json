@@ -6,10 +6,53 @@
 	"title": "Text Box",
 	"category": "text",
 	"icon": "editor-justify",
-	"keywords": ["text", "paragraph", "box"],
+	"keywords": [ "text", "paragraph", "box" ],
 	"description": "A block to be using like a text box",
 	"supports": {
-		"html": false
+		"html": false,
+		"color": {
+			"background": true,
+			"text": true,
+			"enableContrastChecker": false
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true
+		}
+	},
+	"attributes": {
+		"text": {
+			"type": "string",
+			"source": "html",
+			"selector": "h4"
+		},
+		"alignment": {
+			"type": "string",
+			"default": "left"
+		},
+		"shadow": {
+			"type": "boolean",
+			"default": false
+		},
+		"shadowOpacity": {
+			"type": "number",
+			"default": 3
+		},
+		"backgroundColor": {
+			"type": "string",
+			"default": "fire-engine-red"
+		},
+		"textColor": {
+			"type": "string",
+			"default": "white"
+		}
+	},
+	"example": {
+		"attributes": {
+			"text": "This is some text",
+			"alignment": "center",
+			"backgroundColor": "fire-engine-red"
+		}
 	},
 	"textdomain": "gutenberg",
 	"editorScript": "file:./index.js",

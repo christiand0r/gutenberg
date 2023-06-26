@@ -76,6 +76,8 @@ html {
   width: 100%;
 }
 
+/* Aligments Width
+--------------------------------------------- */
 .alignfull,
 .alignwide {
   margin: 0;
@@ -88,6 +90,21 @@ html {
   .alignwide {
     margin: 0 -100px;
   }
+}
+
+/* Aligments Text
+--------------------------------------------- */
+.has-text-align-left {
+  text-align: left;
+}
+.has-text-align-center {
+  text-align: center;
+}
+.has-text-align-right {
+  text-align: right;
+}
+.has-text-align-justify {
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -457,7 +474,7 @@ textarea {
 .page-content,
 .entry-content,
 .entry-summary {
-  margin: 1.5em 0 0;
+  margin: 1.5em 0 2em 0;
 }
 
 .page-links {

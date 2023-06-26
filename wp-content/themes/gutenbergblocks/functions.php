@@ -39,45 +39,6 @@ function gutenberg_blocks_setup()
 	add_theme_support('custom-spacing');
 	add_theme_support('custom-line-height');
 
-	add_theme_support('disable-custom-colors');
-	add_theme_support('editor-color-palette', [
-		[
-			'name' => esc_attr__('Prussian Blue', 'gutenberg-blocks'),
-			'slug' => 'prussian-blue',
-			'color' => '#003049'
-		],
-		[
-			'name' => esc_attr__('Fire Engine Red', 'gutenberg-blocks'),
-			'slug' => 'fire-engine-red',
-			'color' => '#D62828'
-		],
-		[
-			'name' => esc_attr__('Orange Wheel', 'gutenberg-blocks'),
-			'slug' => 'orange-wheel',
-			'color' => '#F77F00'
-		],
-		[
-			'name' => esc_attr__('Ghost White', 'gutenberg-blocks'),
-			'slug' => 'ghost-white',
-			'color' => '#F0EFF4'
-		],
-		[
-			'name' => esc_attr__('Platinum', 'gutenberg-blocks'),
-			'slug' => 'platinum',
-			'color' => '#E2E2E2'
-		],
-		[
-			'name' => esc_attr__('Black', 'gutenberg-blocks'),
-			'slug' => 'black',
-			'color' => '#000'
-		],
-		[
-			'name' => esc_attr__('White', 'gutenberg-blocks'),
-			'slug' => 'white',
-			'color' => '#fff'
-		]
-	]);
-
 	add_theme_support('disable-custom-font-sizes');
 	add_theme_support('editor-font-sizes', [
 		[
@@ -106,6 +67,8 @@ function gutenberg_blocks_setup()
 			'size' => 36
 		],
 	]);
+
+
 
 	/*
 		* Make theme available for translation.
